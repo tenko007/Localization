@@ -17,7 +17,7 @@ public class TestSaveAndLoadLocalization
         languageTexts.Add("NEW_QUEST", "You've got a new quest!");
         languageTexts.Add("NEW_ITEM", "There is a new item in your inventory!");
         
-        Localization.Instance.SaveLaguage(language, languageTexts);
+        Localization.Instance.SaveLanguage(language, languageTexts);
         Localization.Instance.SetLanguage(language);
 
         Assert.AreEqual(Localization.Instance.GetText("FIRST_GREETINGS"), "Hello, World!");

@@ -1,0 +1,7 @@
+{
+  "FIRST_GREETINGS": "Hello, World!",
+  "NEW_QUEST": "You've got a new quest",
+  "NEW_ITEM": "There is a new item in your inventory",
+  "SETTINGS": "Settings",
+  "LANGUAGE": "Language"
+}

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-public class LocalizationLoader : ILocalizationLoader
+public class LocalizationDirectoryLoader : ILocalizationLoader
 {
     //private string DirectoryPath = System.AppContext.BaseDirectory + "/Directory";
     public const string LocalizationDirectory = "Localization";
@@ -18,8 +18,8 @@ public class LocalizationLoader : ILocalizationLoader
 
     private Dictionary<string,string> ReadDataFromFile(string language)
     {
-        string jsonText = File.ReadAllText(GetFilePath(language));
-        return JsonConverter.Instance.JsonToDictionary<string, string>(jsonText);
+        string textsString = File.ReadAllText(GetFilePath(language));
+        return JsonConverter.Instance.JsonToDictionary<string, string>(textsString);
     }
 
     public string GetFilePath(string language)
