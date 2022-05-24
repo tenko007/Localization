@@ -976,7 +976,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e08470c8db314cf8b652f3e2fdd78d93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: FIRST_GREETINGS
+  key:
+    key: FIRST_GREETINGS
 --- !u!114 &733707135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1349,7 +1350,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e08470c8db314cf8b652f3e2fdd78d93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: LANGUAGE
+  key:
+    key: 
 --- !u!1 &1691979781
 GameObject:
   m_ObjectHideFlags: 0
@@ -1400,7 +1402,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e08470c8db314cf8b652f3e2fdd78d93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: SETTINGS
+  key:
+    key: 
 --- !u!114 &1691979784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1773,4 +1776,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e08470c8db314cf8b652f3e2fdd78d93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: SETTINGS
+  key:
+    key: 

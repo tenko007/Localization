@@ -3,7 +3,6 @@ using System.IO;
 
 public class LocalizationDirectoryLoader : ILocalizationLoader
 {
-    //private string DirectoryPath = System.AppContext.BaseDirectory + "/Directory";
     public const string LocalizationDirectory = "Localization";
     public void Save(string language, Dictionary<string, string> texts)
     {
