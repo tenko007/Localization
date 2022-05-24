@@ -1351,7 +1351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key:
-    key: 
+    key: LANGUAGE
 --- !u!1 &1691979781
 GameObject:
   m_ObjectHideFlags: 0
@@ -1403,7 +1403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key:
-    key: 
+    key: SETTINGS
 --- !u!114 &1691979784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1777,4 +1777,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key:
-    key: 
+    key: SETTINGS
