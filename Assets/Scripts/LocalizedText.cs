@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,7 +5,7 @@ using UnityEngine.UI;
 public class LocalizedText : MonoBehaviour
 {
     private Text _textField;
-    public string key;
+    public LocalizedTextKey key;
 
     private void OnEnable()
     {
@@ -19,7 +18,7 @@ public class LocalizedText : MonoBehaviour
 
     private void UpdateText()
     {
-        string value = Localization.Instance.GetText(key);
+        string value = Localization.Instance.GetText(key.key);
         _textField.text = value;
     }
 }
